@@ -398,4 +398,4 @@ export type GqlDirectiveResolvers<ContextType = ResolverContext> = {
   auth?: GqlAuthDirectiveResolver<any, any, ContextType>;
 };
 
-// Generated on 2022-01-30T14:13:30+00:00
+// Generated on 2022-09-02T22:26:20+02:00

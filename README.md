@@ -1,4 +1,4 @@
-# Calorie Counter Demo Project
+# Hackathon Demo Project
 
 Based on Express TypeScript GraphQL API Starter
 

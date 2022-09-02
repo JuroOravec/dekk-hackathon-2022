@@ -12,7 +12,7 @@
       />
 
       <!-- TODO: Should be v-toolbar-title, but that's not available in Vuetify 3 -->
-      <v-app-bar-title class="text-white">Calorie Counter Demo App</v-app-bar-title>
+      <v-app-bar-title class="text-white">DEKK Hackathon Demo App</v-app-bar-title>
 
       <v-spacer />
       <LogoutBtn v-if="user" class="mx-4 my-2" />

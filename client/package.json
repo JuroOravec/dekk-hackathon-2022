@@ -1,5 +1,5 @@
 {
-  "name": "calorie-counter-demo-client",
+  "name": "dekk-hackathon-demo-client",
   "version": "0.0.0",
   "scripts": {
     "build": "npm run build:prd",
