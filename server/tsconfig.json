@@ -30,13 +30,13 @@
     "typeRoots": [
       "types",
       "node_modules/@types"
-    ],
+    ]
   },
   "ts-node": {
     "files": true,
     // See https://typestrong.org/ts-node/docs/paths/
     "require": ["tsconfig-paths/register"]
   },
-  "include": ["src/**/*", "playground.ts"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }

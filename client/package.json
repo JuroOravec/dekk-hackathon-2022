@@ -13,6 +13,7 @@
     "preview:prd": "vite preview --mode prd",
     "test": "npm run test:unit",
     "test:unit": "jest --runInBand --forceExit --detectOpenHandles",
+    "codegen": "npm run graphql:gen",
     "graphql:gen": "graphql-codegen --config codegen.yml"
   },
   "husky": {
