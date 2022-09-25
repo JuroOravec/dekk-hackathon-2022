@@ -1,4 +1,6 @@
-import { defineConfig } from 'vite';
+import {
+  defineConfig
+} from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vuetify from 'vite-plugin-vuetify';
 
@@ -20,11 +22,17 @@ export default defineConfig({
       autoImport: true,
     }),
   ],
-  define: { 'process.env': {} },
+  define: {
+    'process.env': {}
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
   },
   /* remove the need to specify .vue files https://vitejs.dev/config/#resolve-extensions
   resolve: {
